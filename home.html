@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="powderblue">
+
+<center><h1 style="color:green;font-size:60px;">Aircraft Design Lab</h1> </center>
+
+<marquee><h3>This project is under the conditions of FAR 23(business jet)</h3></marquee>
+
+<a href="{%url 'about'%}"><h2>ABOUT</h2></a>
+
+<h1><li>Estimation of Gross Take-off Weight(WTO) , Empty Weight(WE) and
+
+    Mission Fuel Weight(WF)</li></h1>
+
+<form action="sub">
+    Empty Weight Ratio:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text8">&emsp;&emsp;&emsp;&emsp;
+    Payload Weight in kg:&emsp;&emsp;<input type="text" name="text9"><br/>
+    Weight Ratio at Cruise:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text10">&emsp;&emsp;&emsp;&emsp;
+    Weight Ratio at Loiter:&emsp;&nbsp;&nbsp;&nbsp;<input type="text" name="text11"><br/>
+     &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit">
+</form>
+<h1><li>Selection of Critical Design Parameter(W/T and T/W)</li></h1>
+
+<form action="add">
+    Maximum Take-off Velocity in m/s:<input type="text" name="text1"> &emsp;&emsp;&emsp;&emsp;
+    Maximum Lift Coefficient:<input type="text" name="text2"> <br />
+    Takeoff Ground Roll in m:&emsp;&emsp;&emsp;&nbsp;&nbsp; <input type="text" name="text3">&emsp;&emsp;&emsp;&emsp;
+    Oswald's Efficiency:&emsp;&emsp;&nbsp;&nbsp;&nbsp;<input type="text" name="text4"> <br />
+    Aspect Ratio:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text5">&emsp;&emsp;&emsp;&emsp;
+    Zero Lift Drag Coefficient:&nbsp;<input type="text" name="text6"> <br />
+    Lift to Drag Ratio:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text7">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit">
+</form>
+
+<h1><li>Selection of Aerofoil</li></h1>
+
+<form action="expression">
+    maximum takeoff weight in N:&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text8">&emsp;&emsp;&emsp;&emsp;
+    stall velocity in m/s:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="text9"><br/>
+    initial weight before cruise of aircraft in kg:<input type="text" name="text10">&emsp;&emsp;&emsp;&emsp;
+    final weight before cruise of aircraft in kg:<input type="text" name="text11"><br/>
+    density at service ceiling:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="text12">&emsp;&emsp;&emsp;&emsp;
+    cruise velocity in m/s:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="text13"><br/>
+    wing planform area in m^2:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="text" name="text14">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="submit">
+    <br/>
+    <p><center>Copyright © 2020<center/><p/>
+</form>
+
+</body>
+
+</html>
